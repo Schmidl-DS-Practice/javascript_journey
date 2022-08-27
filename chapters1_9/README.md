@@ -1,10 +1,10 @@
 Topics For Chapters 1 to 9:
 Chapter 1:
-chapter 2:
-chapter 3:
-chapter 4:
-chapter 5:
-chapter 6:
-chapter 7:
-chapter 8:
-chapter 9:
+Chapter 2:
+Chapter 3:
+Chapter 4:
+Chapter 5:
+Chapter 6:
+Chapter 7:
+Chapter 8:
+Chapter 9:
