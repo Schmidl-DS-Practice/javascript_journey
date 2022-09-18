@@ -474,7 +474,9 @@ set value of attribute with .setAttribute("", "");
 */
 
 // Chapter 66
-
+/**
+ * get collection of attributes with .attributes;
+ */
 
 // Chapter 67
 
