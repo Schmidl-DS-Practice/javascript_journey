@@ -474,11 +474,17 @@ set value of attribute with .setAttribute("", "");
 */
 
 // Chapter 66
-/**
- * get collection of attributes with .attributes;
- */
+/*
+get collection of attributes with .attributes;
+*/
 
 // Chapter 67
+document.createElement("p");
+document.createElement("img");
+// .setAttribute("border", "1") // 1 pixel border
+
+document.createTextNode("");
+nodeToAdd.appendChild(newText);
 
 
 // Chapter 68
