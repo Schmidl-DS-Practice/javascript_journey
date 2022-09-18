@@ -239,6 +239,14 @@ for the same reason that it's a good idea to put js code at the end of the body 
 // <img src="before-pic.jpg" onMouseover="src='after-pic.jpg'" onMouseout="src='before-pic.jpg'">
 
 // Chapter 48
+// Email:<br>
+// <input type="text" size="30" onFocus="this.style/backgroundColor='yellow';">
+
+// Email:<br>
+// <input type="text" size="30" onFocus="this.style/backgroundColor='yellow';" onBlur="this.style.backgroundColor='white'">
+
+// Email:<br>
+// <input type="text" size="30" onFocus="makefieldyellow();" onBlur="makefieldwhite();">
 
 // Chapter 49
 
