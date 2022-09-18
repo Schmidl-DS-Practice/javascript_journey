@@ -226,6 +226,10 @@ for the same reason that it's a good idea to put js code at the end of the body 
 // <a href="JavaScript.void(0)" onClick="popup('hi');">Click</a>
 
 // Chapter 46
+// <input type="button" value="Cilck" onClick="alert('hello');">
+// <a href="summary-page.html"><img src="button-sum.png"></a>
+// <img src="button-sum.png" onClick="alert('hello');">
+// <img src="button-sum.png" onClick="greeting();">
 
 // Chapter 47
 
