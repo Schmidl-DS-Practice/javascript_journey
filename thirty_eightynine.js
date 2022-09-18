@@ -438,7 +438,11 @@ secondEl = firstEl.nextSibling; // null if doesn't exist
 var nonexistentEl = firstEl.previousSibling; // null if doesn't exist
 
 // Chapter 63
+nName = target.nodeName;
+var nTextContent = target.nodeValue;
+if (targetNode.nodeName.toLowerCase() === "img"){
 
+}
 
 // Chapter 64
 
