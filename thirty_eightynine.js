@@ -282,81 +282,143 @@ function checkAddress(fieldId){
 }
 
 // Chapter 50
+/*
+<form>
+    ZIP:
+    <input type="text" id="zip" onBlur="fillCity();"><br>
+    City:<br>
+    <input type="text" id="city">
+</form>
+*/
+function fillCity(){
+    var cityname;
+    var zipentered = document.getElementById("zip").value;
+    switch(zipentered){
+    case "60608":
+        cityname = "Chicago";
+        break;
+    case "68114":
+        cityname = "Omaha";
+        break;
+    case "53212":
+        cityname = "Milwaukee";
+    }
+    document.getElementById("city").value = cityname;
+}
 
 // Chapter 51
 
+
 // Chapter 52
+
 
 // Chapter 53
 
+
 // Chapter 54
+
 
 // Chapter 55
 
+
 // Chapter 56
+
 
 // Chapter 57
 
+
 // Chapter 58
+
 
 // Chapter 59
 
+
 // Chapter 60
+
 
 // Chapter 61
 
+
 // Chapter 62
+
 
 // Chapter 63
 
+
 // Chapter 64
+
 
 // Chapter 65
 
+
 // Chapter 66
+
 
 // Chapter 67
 
+
 // Chapter 68
+
 
 // Chapter 69
 
+
 // Chapter 70
+
 
 // Chapter 71
 
+
 // Chapter 72
+
 
 // Chapter 73
 
+
 // Chapter 74
+
 
 // Chapter 75
 
+
 // Chapter 76
+
 
 // Chapter 77
 
+
 // Chapter 78
+
 
 // Chapter 79
 
+
 // Chapter 80
+
 
 // Chapter 81
 
+
 // Chapter 82
+
 
 // Chapter 83
 
+
 // Chapter 84
+
 
 // Chapter 85
 
+
 // Chapter 86
+
 
 // Chapter 87
 
+
 // Chapter 88
 
+
 // Chapter 89
+
