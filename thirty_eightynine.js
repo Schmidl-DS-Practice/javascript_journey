@@ -385,10 +385,17 @@ for (var i = 0; i < par.length; i++){
 }
 var pics = document.getElementsByTagName("img");
 var divs = document.getElementsByTagName("div");
-var ulists = document.getElementsByTagName("ul")
+var ulists = document.getElementsByTagName("ul");
 
 // Chapter 57
+var e = document.getElementsById("rules");
+var paragraphs = e.getElementsByTagName("p");
 
+var t = document.getElementById("table9");
+var cells = t.getElementsByTagName("td");
+for (var i = 0; i < cells.length; i++){
+    cells[i].style.backgroundColor = "pink";
+}
 
 // Chapter 58
 
