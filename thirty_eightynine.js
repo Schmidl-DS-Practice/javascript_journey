@@ -205,6 +205,15 @@ for the same reason that it's a good idea to put js code at the end of the body 
 */
 
 // Chapter 44
+// HTML:
+// <!-- -->
+
+// CSS:
+// /* */
+
+// JS:
+// //
+// /* */
 
 // Chapter 45
 
