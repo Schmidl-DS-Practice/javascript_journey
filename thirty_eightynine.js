@@ -684,9 +684,13 @@ window.location.reload(true);
 window.location.reload(false);
 window.location.reload();
 
-
 // Chapter 78
+history.back();
+history.forward();
+history.go(-3);
+history.go(2);
 
+var whereusercamefrom = document.referrer;
 
 // Chapter 79
 
