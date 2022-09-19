@@ -743,7 +743,7 @@ function checkforlastname(){
     }
 }
 
-function checkforlastname(){2
+function checkforlastname(){
     var targetfield = document.getElementById("lastnamefield");
     if (targetfield.value.length === 0){
         alert("enter last name");
@@ -751,7 +751,7 @@ function checkforlastname(){2
         targetfield.style.background = "yellow";
         return false;
     }
-    targetfield.style.background = "white";10
+    targetfield.style.background = "white";
 }
 
 // Chapter 83
@@ -838,7 +838,28 @@ function validatezip(){
 }
 
 // Chapter 86
+function validateEmail(){
+    var eEntered = document.getElementById("email").value;
+    if (eEntered.indexOf(" ") !== -1){
+        alert("no spaces allowed");
+        return false;
+    }
+}
 
+function validateEmail(){
+    var addressIsLegal = true;
+    var eEntered = document.getElementById("email").value;
+    if (eEntered.indexOf(" ") !== -1){
+        var addressIsLegal = false;
+    }
+    if (eEntered.indexOf("@") < 1 || eEntered.indexOf("@") > eEntered.length - 5){
+        addressIsLegal = false;
+    }
+    if (addressIsLegal === false){
+        alert("correcrt email");
+        return false;
+    }
+}
 
 // Chapter 87
 
