@@ -1,8 +1,7 @@
 from importlib.resources import path
 import os
 from glob import glob
-
-filepath = "/Users/dragonzord/Documents/SchoolDocs/Schmidl-DS-Practice/javascript_journey"
+from path_to_directory import filepath
 
 # this counter how many repos had .git in them
 # print(sum(1 for _, dirnames, _ in os.walk("repos") if ".git" in dirnames))
