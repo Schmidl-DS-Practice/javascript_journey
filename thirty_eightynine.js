@@ -693,7 +693,9 @@ history.go(2);
 var whereusercamefrom = document.referrer;
 
 // Chapter 79
-
+window.open();
+monkeywindow = window.open();
+monkeywindow.document.write(windowcontent)
 
 // Chapter 80
 
