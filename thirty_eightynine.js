@@ -678,6 +678,11 @@ window.location.href = "https://...";
 // can do document.URL instead of href
 
 // Chapter 77
+window.location.assign("https://...");
+window.location.replace("");
+window.location.reload(true);
+window.location.reload(false);
+window.location.reload();
 
 
 // Chapter 78
